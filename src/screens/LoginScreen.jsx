@@ -32,7 +32,7 @@ const LoginScreen = ({ navigation }) => {
     })
       .then((response) => response.json())
       .catch((error) => console.error(error));
-    checkLogin(username, password);
+    alert("Sign Up Success");
   };
 
   return (
